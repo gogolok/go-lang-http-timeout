@@ -1,0 +1,4 @@
+package: github.com/gogolok/go-lang-http-timeout
+import:
+- package: github.com/parnurzeal/gorequest
+  version: ^0.2.11
