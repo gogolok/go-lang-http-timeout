@@ -10,7 +10,8 @@ import (
 )
 
 func LongSleepHandler(w http.ResponseWriter, r *http.Request) {
-	time.Sleep(1000 * time.Second)
+	for {
+	}
 	io.WriteString(w, "Long sleeping")
 }
 
